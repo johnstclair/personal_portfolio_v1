@@ -1,10 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import logoImgJS from "/src/assets/JsSvgParts/JS.svg";
-import logoImgLines from "/src/assets/JsSvgParts/Lines.png";
-import logoImgBorder from "/src/assets/JsSvgParts/Border.svg";
-
 // eslint-disable-next-line react/prop-types
 function Navbar({ skills, aboutMe, hero }) {
   const navigate = useNavigate();
