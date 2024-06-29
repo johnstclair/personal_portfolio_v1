@@ -33,11 +33,11 @@ function Projects() {
           />
           <Project
             click={() => redirectSite("/")}
-            reference={""}
-            useReference={false}
-            header={"Anzz - WIP"}
+            reference={"https://gangagames.itch.io/anzz"}
+            useReference={true}
+            header={"Anzz"}
             paragraph={
-              "Anzz is a small project I'm working on in school to learn Godot Mono (C#).  It is a simulation where ants use pheromones to gather food as efficiently as possible, it should be available to play by mid June."
+              "Anzz is a small, silly project I worked on for school to learn Godot Mono (C#).  It's a simulation where ants utilize pheromones to gather food as efficiently as possible. I've stopped devolpment on it, but I may continue in the future."
             }
             imagePath={antsImg}
             imageWidth={"100%"}
