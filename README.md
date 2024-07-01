@@ -1,1 +1,1 @@
-Simple Personal Portfolio
+A simple Reactjs portfolio website
