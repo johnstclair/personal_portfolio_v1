@@ -6,6 +6,7 @@ import Project from "./Project";
 import htmlImg from "/src/assets/html.png";
 import antsImg from "/src/assets/ants.png";
 import armImg from "/src/assets/arm.png";
+import lyricSearch from "/src/assets/extension-icon.png";
 
 function Projects() {
   const navigate = useNavigate();
@@ -51,6 +52,17 @@ function Projects() {
               "This website! I have used my knowledge of Javascript, HTML, CSS and React to create my very own personal portfolio!"
             }
             imagePath={htmlImg}
+            imageWidth={"100%"}
+          />
+          <Project
+            click={() => redirectSite("/")}
+            reference={"https://github.com/johnstclair/lyric-search"}
+            useReference={true}
+            header={"Lyric Search"}
+            paragraph={
+              "An extension for Raycast, an app launcher (an much more) for macOS. Built with Typescript and React this extension allows you to search for songs using lyrics, utilizing the Genius Lyric's API"
+            }
+            imagePath={lyricSearch}
             imageWidth={"100%"}
           />
         </div>
