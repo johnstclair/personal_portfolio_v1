@@ -20,6 +20,10 @@ h1 {
   font-family: "Jetbrains Mono", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h3 {
+  margin-left: 40%;
+}
+
 .topnav {
   z-index: 5;
   border-bottom: solid;

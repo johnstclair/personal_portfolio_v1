@@ -25,6 +25,7 @@ function Projects() {
             click={() => redirectSite("/")}
             reference={"https://github.com/johnstclair/TAADDA_CPU"}
             useReference={true}
+            author={"Author"}
             header={"T.A.A.D.D.A CPU"}
             paragraph={
               "One of my more recent and time consuming projects, was building and designing a virtual computer, with an special ARM-like architecture."
@@ -36,6 +37,7 @@ function Projects() {
             click={() => redirectSite("/")}
             reference={"https://gangagames.itch.io/anzz"}
             useReference={true}
+            author={"Author"}
             header={"Anzz"}
             paragraph={
               "Anzz is a small, silly project I worked on for school to learn Godot Mono (C#).  It's a simulation where ants utilize pheromones to gather food as efficiently as possible. I've stopped devolpment on it, but I may continue in the future."
@@ -47,6 +49,7 @@ function Projects() {
             click={() => redirectSite("/")}
             reference={""}
             useReference={false}
+            author={"Author"}
             header={"Personal Portfolio"}
             paragraph={
               "This website! I have used my knowledge of Javascript, HTML, CSS and React to create my very own personal portfolio!"
@@ -58,6 +61,7 @@ function Projects() {
             click={() => redirectSite("/")}
             reference={"https://github.com/johnstclair/lyric-search"}
             useReference={true}
+            author={"Author"}
             header={"Lyric Search"}
             paragraph={
               "An extension for Raycast, an app launcher (an much more) for macOS. Built with Typescript and React this extension allows you to search for songs using lyrics, utilizing the Genius Lyric's API"

@@ -9,6 +9,7 @@ function Project({
   useReference,
   header,
   paragraph,
+  author,
   imagePath,
   imageWidth,
 }) {
@@ -33,6 +34,7 @@ function Project({
           </button>
         )}
         <h1>{header}</h1>
+        <h3>{author}</h3>
         <p>{paragraph}</p>
       </motion.div>
     </>
