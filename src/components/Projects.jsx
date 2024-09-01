@@ -8,6 +8,7 @@ import antsImg from "/src/assets/ants.png";
 import armImg from "/src/assets/arm.png";
 import lyricSearch from "/src/assets/extension-icon.png";
 import geniusLyricsImg from "/src/assets/geniuslyrics.png";
+import btsmPath from "/src/assets/main.png";
 
 function Projects() {
   const navigate = useNavigate();
@@ -82,6 +83,18 @@ function Projects() {
             imagePath={geniusLyricsImg}
             imageWidth={"100%"}
           />
+          <Project
+            click={() => redirectSite("/")}
+            reference={"https://gangagames.itch.io/built-to-scale-mountains"}
+            useReference={true}
+            author={"Developer"}
+            header={"GMTK2024 Game Jam"}
+            paragraph={
+              "With a team of two newcomers to Git and Godot, I was the main developer in Built To Scale: Moutains, a submission to the GMTK2024 Game Jam!"
+            }
+            imagePath={btsmPath}
+            imageWidth={"100%"}
+          ></Project>
         </div>
       </div>
     </>
