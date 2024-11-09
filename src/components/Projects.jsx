@@ -62,18 +62,6 @@ function Projects() {
 					/>
 					<Project
 						click={() => redirectSite("/")}
-						reference={"https://github.com/johnstclair/lyric-search"}
-						useReference={true}
-						author={"Author"}
-						header={"Lyric Search"}
-						paragraph={
-							"An extension for Raycast, an app launcher (an much more) for macOS. Built with Typescript and React this extension allows you to search for songs using lyrics, utilizing the Genius Lyric's API"
-						}
-						imagePath={lyricSearch}
-						imageWidth={"100%"}
-					/>
-					<Project
-						click={() => redirectSite("/")}
 						reference={"https://www.raycast.com/tkdkid1000/genius-lyrics"}
 						useReference={true}
 						author={"Contributor"}
