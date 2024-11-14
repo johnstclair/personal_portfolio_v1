@@ -86,7 +86,7 @@ function Projects() {
 					></Project>
 					<Project
 						click={() => redirectSite("/")}
-						reference={"https://gangagames.itch.io/built-to-scale-mountains"}
+						reference={"https://github.com/johnstclair/nixos-config"}
 						useReference={true}
 						author={"Developer"}
 						header={"NixOS Configuration"}
