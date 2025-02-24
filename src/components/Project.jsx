@@ -26,11 +26,11 @@ function Project({
       >
         {useReference ? (
           <button onClick={() => (location.href = reference)}>
-            <img src={imagePath} width={imageWidth} />
+            <img className="project-image" src={imagePath} width={imageWidth} />
           </button>
         ) : (
           <button onClick={click}>
-            <img src={imagePath} width={imageWidth} />
+            <img className="project-image" src={imagePath} width={imageWidth} />
           </button>
         )}
         <h1>{header}</h1>

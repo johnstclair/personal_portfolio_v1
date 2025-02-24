@@ -6,7 +6,7 @@ import Project from "./Project";
 import htmlImg from "/src/assets/html.png";
 import antsImg from "/src/assets/ants.png";
 import armImg from "/src/assets/arm.png";
-import lyricSearch from "/src/assets/extension-icon.png";
+import connectionsImg from "/src/assets/artificial-connections.png";
 import geniusLyricsImg from "/src/assets/geniuslyrics.png";
 import btsmPath from "/src/assets/main.png";
 import nixImg from "/src/assets/nix.png";
@@ -26,14 +26,14 @@ function Projects() {
 				<div className="tileSection">
 					<Project
 						click={() => redirectSite("/")}
-						reference={"https://github.com/johnstclair/TAADDA_CPU"}
+						reference={"https://github.com/johnstclair/artificial-connections"}
 						useReference={true}
 						author={"Author"}
-						header={"T.A.A.D.D.A CPU"}
+						header={"Artificial Connections"}
 						paragraph={
-							"One of my more recent and time consuming projects, was building and designing a virtual computer, with an special ARM-like architecture."
+							"A full stack app I built with Tauri, Artificial Connections is just like New York Times Connections, with an AI twist."
 						}
-						imagePath={armImg}
+						imagePath={connectionsImg}
 						imageWidth={"100%"}
 					/>
 					<Project
@@ -43,7 +43,7 @@ function Projects() {
 						author={"Author"}
 						header={"Anzz"}
 						paragraph={
-							"Anzz is a small, silly project I worked on for school to learn Godot Mono (C#).  It's a simulation where ants utilize pheromones to gather food as efficiently as possible. I've stopped devolpment on it, but I may continue in the future."
+							"Anzz is a small, silly project I worked on for school to learn Godot Mono (C#).  It's a simulation where ants utilize pheromones to gather food as efficiently as possible."
 						}
 						imagePath={antsImg}
 						imageWidth={"100%"}
@@ -96,6 +96,18 @@ function Projects() {
 						imagePath={nixImg}
 						imageWidth={"100%"}
 					></Project>
+					<Project
+						click={() => redirectSite("/")}
+						reference={"https://github.com/johnstclair/TAADDA_CPU"}
+						useReference={true}
+						author={"Author"}
+						header={"T.A.A.D.D.A CPU"}
+						paragraph={
+							"One of my more time consuming projects, this project included was building and designing a virtual computer, with an special ARM-like architecture."
+						}
+						imagePath={armImg}
+						imageWidth={"100%"}
+					/>
 				</div>
 			</div>
 		</>
@@ -103,7 +115,3 @@ function Projects() {
 }
 
 export default Projects;
-
-/* 
-more technical font
-*/
