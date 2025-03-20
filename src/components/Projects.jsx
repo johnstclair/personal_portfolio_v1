@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import Project from "./Project";
 
+import lfisiksImg from "/src/assets/lfisiks.png";
 import htmlImg from "/src/assets/html.png";
 import antsImg from "/src/assets/ants.png";
 import armImg from "/src/assets/arm.png";
@@ -50,6 +51,18 @@ function Projects() {
 					/>
 					<Project
 						click={() => redirectSite("/")}
+						reference={"https://github.com/johnstclair/lfisiks/"}
+						useReference={true}
+						author={"Author"}
+						header={"lfisiks"}
+						paragraph={
+							"lfisiks is a little pixel physics demo built with minifb in Rust. I made the project over a couple of days, and released it as a referance for other deveolpers."
+						}
+						imagePath={lfisiksImg}
+						imageWidth={"100%"}
+					/>
+					<Project
+						click={() => redirectSite("/")}
 						reference={""}
 						useReference={false}
 						author={"Author"}
@@ -88,7 +101,7 @@ function Projects() {
 						click={() => redirectSite("/")}
 						reference={"https://github.com/johnstclair/nixos-config"}
 						useReference={true}
-						author={"Developer"}
+						author={"Author"}
 						header={"NixOS Configuration"}
 						paragraph={
 							"My NixOS configuration, designed from the ground up to be modular, maintainable, reproducable, and stunning."
