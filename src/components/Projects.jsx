@@ -56,7 +56,7 @@ function Projects() {
 						author={"Author"}
 						header={"lfisiks"}
 						paragraph={
-							"lfisiks is a little pixel physics demo built with minifb in Rust. I made the project over a couple of days, and released it as a referance for other deveolpers."
+							"lfisiks is a little pixel physics demo built with minifb in Rust. I made the project over a couple of days, and released it as a reference for other deveolpers."
 						}
 						imagePath={lfisiksImg}
 						imageWidth={"100%"}
@@ -68,7 +68,7 @@ function Projects() {
 						author={"Author"}
 						header={"Personal Portfolio"}
 						paragraph={
-							"This website! I have used my knowledge of Javascript, HTML, CSS and React to create my very own personal portfolio!"
+							"This website! I have used my knowledge of Javascript, HTML, CSS, and React to create my very own personal portfolio!"
 						}
 						imagePath={htmlImg}
 						imageWidth={"100%"}
@@ -116,7 +116,7 @@ function Projects() {
 						author={"Author"}
 						header={"T.A.A.D.D.A CPU"}
 						paragraph={
-							"One of my more time consuming projects, this project included was building and designing a virtual computer, with an special ARM-like architecture."
+							"One of my more time consuming projects, I built and designed a virtual computer with an special ARM-like architecture."
 						}
 						imagePath={armImg}
 						imageWidth={"100%"}
