@@ -6,10 +6,10 @@ import "./style.css";
 
 import React from "react";
 import {
-    BrowserRouter as Router,
     Routes,
     useNavigate,
     Route,
+    HashRouter
 } from "react-router-dom";
 
 const NotFound = () => {
@@ -24,13 +24,13 @@ const NotFound = () => {
 
 function App() {
   return (
-      <Router>
-          <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="*" element={<NotFound />} />
-          </Routes>
-      </Router>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+  </HashRouter>
   );
 }
 
