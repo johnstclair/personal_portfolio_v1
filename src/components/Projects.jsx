@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 
 import Navbar from "./Navbar";
 import Project from "./Project";
+import Notif from "./Notif";
 
 import lfisiksImg from "/src/assets/lfisiks.png";
 import htmlImg from "/src/assets/html.png";
@@ -22,6 +23,7 @@ function Projects() {
 	return (
 		<>
 			<Navbar />
+      <Notif />
 			<div className="projects section" id="projects">
 				<h1>Projects - Images link to project</h1>
 				<div className="tileSection">
