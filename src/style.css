@@ -197,3 +197,31 @@ p {
 .projects {
   border-width: 0px;
 }
+
+.notif {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+
+  z-index: 100;
+
+  padding: 1em;
+  width: 16em;
+  height: 7em;
+  background-color: var(--c);
+
+  border: 2px solid #bb1313;
+}
+
+.notif h2, .notif p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.notif h2 {
+  font-size: 1.3em;
+}
+
+a {
+  color: var(--a);
+}

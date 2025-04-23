@@ -2,6 +2,7 @@ import { useRef, useEffect } from "react";
 
 import Navbar from "./Navbar";
 import Type from "./Type";
+import Notif from "./Notif";
 
 import BarGraph from "./BarGraph";
 
@@ -30,6 +31,7 @@ function Home() {
 	return (
 		<>
 			<Navbar skills={skills} aboutMe={aboutMe} hero={hero} />
+      <Notif />
 
 			<div className="hero" ref={hero}>
 				<img
