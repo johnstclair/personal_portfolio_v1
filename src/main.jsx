@@ -11,17 +11,27 @@ import {
   Route,
   Routes,
   HashRouter,
-  Navigate
+  Navigate,
+  createBrowserRouter, 
+  RouterProvider
 } from "react-router-dom";
+
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/projects",
+      element: <Projects />,
+    },
+  ],
+  { basename: "/personal_portfolio_v1/" }
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/*" element={<Navigate to="/" />}  />
-      </Routes>
-    </HashRouter>
-  </React.StrictMode>,
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
